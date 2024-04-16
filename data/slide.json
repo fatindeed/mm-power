@@ -1,0 +1,11 @@
+[
+  {
+    "title": "这里放一句slogan",
+    "image": "img/slide/slide01.jpg"
+  },
+  {
+    "title": "这是另一张图片...",
+    "image": "img/slide/slide02.jpg",
+    "color": "text-black"
+  }
+]

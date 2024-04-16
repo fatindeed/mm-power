@@ -1,0 +1,4 @@
+baseURL = 'https://www.mm-power.com/'
+languageCode = 'zh-cn'
+title = 'My New Hugo Site'
+theme = 'tella'

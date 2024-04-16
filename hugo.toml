@@ -1,0 +1,88 @@
+baseURL = 'https://www.mm-power.com/'
+title = '苏州麦麦新能源科技有限公司'
+author = "username"
+languageCode = 'zh-cn'
+DefaultContentLanguage = "zh-cn"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  showBlog = true
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  [params.logo]
+    main = "img/logo/logo.svg"
+    alt = "Tella Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "麦麦新能源 MM Power"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+    meta_og_title = "Tella"
+    meta_og_type = "website"
+    meta_og_url = "https://tella.pages.dev"
+    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@username"
+    meta_twitter_creator = "@username"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "products"
+    name = "公司业务"
+    url = "/products/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "公司新闻"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我们"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "联系我们"
+    url = "/contact/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "主页"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/opera7133/tella"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 2
