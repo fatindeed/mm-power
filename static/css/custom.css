@@ -22,3 +22,8 @@ body {
     --tw-bg-opacity: 1;
     background-color: #ccc;
 }
+
+.text-black-08 {
+    color: rgb(0 0 0 / 0.8);
+}
+
