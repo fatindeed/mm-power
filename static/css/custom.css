@@ -1,0 +1,29 @@
+/* 
+ This CSS file is used to override the existing styles of the theme.
+ You can change the article headings, fonts, colors, etc.
+*/
+
+body {
+    background-color: #f8e7dc;
+}
+
+@media (max-width: 640px) {
+    .sm\:h-12 {
+        height: 3rem;
+    }
+}
+
+.bg-tlgray-200 {
+    --tw-bg-opacity: 1;
+    background-color: #f8e7dc;
+}
+
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: #ccc;
+}
+
+.text-black-08 {
+    color: rgb(0 0 0 / 0.8);
+}
+

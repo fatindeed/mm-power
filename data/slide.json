@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Affordable, Renewable, Recyclable",
+    "image": "img/slide/slide01.jpg"
+  },
+  {
+    "title": "We are committed to creating a greener, more carbon-efficient lifestyle",
+    "image": "img/slide/slide02.jpg",
+    "color": "text-black-08"
+  }
+]

@@ -1,0 +1,51 @@
+baseURL = 'https://www.mm-power.com/'
+title = 'My Power'
+author = "webmaster"
+languageCode = 'zh-cn'
+DefaultContentLanguage = "zh-cn"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+# googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+# disqusShortname = ""
+
+[params]
+
+showBlog = false
+mainSections = ['blog']
+
+googleFonts = true
+
+[params.logo]
+main = "img/logo/logo.jpg"
+alt = "My Power"
+
+# The size parameter is the class name of tailwindcss
+# https://tailwindcss.com/
+size = "h-14 sm:h-12"
+
+[params.site]
+name = "苏州麦麦新能源科技有限公司"
+
+[params.icon]
+# If you want to use FontAwesome, set this parameter to true.
+fontawesome = true
+
+[menu]
+# Footer Menu
+# [[menu.footer]]
+#   name = "主页"
+#   url = "/"
+#     weight = 1
+
+[[menu.footer]]
+name = "联系我们"
+url = "mailto:ceo@mm-power.com"
+weight = 2
