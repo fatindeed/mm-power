@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="mx-auto my-10 max-w-6xl">
+  <div class="mx-3 px-2">
+    <h1 class="title text-5xl mb-4">{{.Title}}</h1>
+    <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1">{{.Content}}</div>
+    {{ range .Site.Data.residential }}
+    <div class="flex flex-wrap justify-center">
+      <h2 class="title text-3xl my-4">{{ .category }}</h2>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 bg-white-real">
+      {{ range .brands }}
+      <div class="flex justify-center items-center p-2">
+        <img class="max-w-full max-h-24 object-contain" src="{{ .logo }}" />
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

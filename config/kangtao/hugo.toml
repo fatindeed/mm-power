@@ -1,0 +1,85 @@
+baseURL = "https://www.kangtao.au/"
+title = "Kang Tao PTY LTD"
+author = "webmaster"
+languageCode = "zh-cn"
+DefaultContentLanguage = "zh-cn"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+# googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+# disqusShortname = ""
+
+[params]
+
+showBlog = false
+mainSections = ["blog"]
+
+googleFonts = true
+
+[params.logo]
+main = "img/logo/kangtao.png"
+alt = "Kang Tao PTY LTD"
+
+# The size parameter is the class name of tailwindcss
+# https://tailwindcss.com/
+size = "h-14 sm:h-12"
+
+[params.site]
+name = "Kang Tao PTY LTD"
+
+[params.icon]
+# If you want to use FontAwesome, set this parameter to true.
+fontawesome = true
+
+[[params.features]]
+title = "Outdoors"
+icon = "fas fa-solar-panel"
+link = "/outdoors/"
+
+[[params.features]]
+title = "Residential"
+icon = "fas fa-house-chimney"
+link = "/residential/"
+
+[[params.features]]
+title = "Commercial"
+icon = "fas fa-building"
+link = "/commercial/"
+
+[menu]
+
+[[menu.main]]
+identifier = "outdoors"
+name = "Outdoors"
+url = "/outdoors/"
+weight = 1
+
+[[menu.main]]
+identifier = "residential"
+name = "Residential"
+url = "/residential/"
+weight = 2
+
+[[menu.main]]
+identifier = "commercial"
+name = "Commercial"
+url = "/commercial/"
+weight = 3
+
+# Footer Menu
+# [[menu.footer]]
+#   name = "主页"
+#   url = "/"
+#     weight = 1
+
+[[menu.footer]]
+name = "Contact us"
+url = "mailto:ceo@kangtao.au"
+weight = 2

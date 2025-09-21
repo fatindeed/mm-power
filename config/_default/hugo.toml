@@ -1,7 +1,7 @@
-baseURL = 'https://www.mm-power.com/'
-title = 'My Power'
+baseURL = "https://www.mm-power.com/"
+title = "My Power"
 author = "webmaster"
-languageCode = 'zh-cn'
+languageCode = "zh-cn"
 DefaultContentLanguage = "zh-cn"
 enableInlineShortcodes = true
 theme = "tella"
@@ -19,12 +19,12 @@ hasCJKLanguage = true
 [params]
 
 showBlog = false
-mainSections = ['blog']
+mainSections = ["blog"]
 
 googleFonts = true
 
 [params.logo]
-main = "img/logo/logo.jpg"
+main = "img/logo/mm-power.jpg"
 alt = "My Power"
 
 # The size parameter is the class name of tailwindcss
@@ -37,6 +37,18 @@ name = "苏州麦麦新能源科技有限公司"
 [params.icon]
 # If you want to use FontAwesome, set this parameter to true.
 fontawesome = true
+
+[[params.features]]
+title = "Affordable"
+icon = "fas fa-hand-holding-usd"
+
+[[params.features]]
+title = "Renewable"
+icon = "fas fa-tree"
+
+[[params.features]]
+title = "Recyclable"
+icon = "fas fa-recycle"
 
 [menu]
 # Footer Menu

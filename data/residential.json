@@ -1,0 +1,225 @@
+[
+  {
+    "category": "Panels",
+    "brands": [
+      {
+        "name": "AE Solar",
+        "logo": "/img/brands/ae.png"
+      },
+      {
+        "name": "Canadian Solar",
+        "logo": "/img/brands/csi.png"
+      },
+      {
+        "name": "DAS Solar",
+        "logo": "/img/brands/das_solar.png"
+      },
+      {
+        "name": "EGING PV",
+        "logo": "/img/brands/eging.png"
+      },
+      {
+        "name": "JA Solar",
+        "logo": "/img/brands/ja_solar.png"
+      },
+      {
+        "name": "JinKo Solar",
+        "logo": "/img/brands/jinko.png"
+      },
+      {
+        "name": "Risen",
+        "logo": "/img/brands/risen.png"
+      },
+      {
+        "name": "Sunman",
+        "logo": "/img/brands/sunman.jpg"
+      },
+      {
+        "name": "Trina Solar",
+        "logo": "/img/brands/trina.png"
+      },
+      {
+        "name": "TW Solar",
+        "logo": "/img/brands/tw_solar.png"
+      },
+      {
+        "name": "Longi Solar",
+        "logo": "/img/brands/longi.png"
+      }
+    ]
+  },
+  {
+    "category": "Inverters",
+    "brands": [
+      {
+        "name": "Alpha ESS",
+        "logo": "/img/brands/alpha_ess.png"
+      },
+      {
+        "name": "Anker SOLIX",
+        "logo": "/img/brands/anker_solix.png"
+      },
+      {
+        "name": "FOX ESS",
+        "logo": "/img/brands/foxess.png"
+      },
+      {
+        "name": "GoodWe",
+        "logo": "/img/brands/goodwe.png"
+      },
+      {
+        "name": "SAJ",
+        "logo": "/img/brands/saj.png"
+      },
+      {
+        "name": "SMA",
+        "logo": "/img/brands/sma.jpg"
+      },
+      {
+        "name": "Solar Edge",
+        "logo": "/img/brands/solaredge.png"
+      },
+      {
+        "name": "Solis",
+        "logo": "/img/brands/solis.jpg"
+      },
+      {
+        "name": "Solplanet",
+        "logo": "/img/brands/solplanet.png"
+      },
+      {
+        "name": "Sungrow",
+        "logo": "/img/brands/sungrow.png"
+      },
+      {
+        "name": "GE",
+        "logo": "/img/brands/ge.png"
+      },
+      {
+        "name": "Fronius",
+        "logo": "/img/brands/fronius.png"
+      }
+    ]
+  },
+  {
+    "category": "Storage",
+    "brands": [
+      {
+        "name": "Alpha ESS",
+        "logo": "/img/brands/alpha_ess.png"
+      },
+      {
+        "name": "Anker SOLIX",
+        "logo": "/img/brands/anker_solix.png"
+      },
+      {
+        "name": "Dyness",
+        "logo": "/img/brands/dyness.png"
+      },
+      {
+        "name": "FOX ESS",
+        "logo": "/img/brands/foxess.png"
+      },
+      {
+        "name": "GoodWe",
+        "logo": "/img/brands/goodwe.png"
+      },
+      {
+        "name": "LG Energy Solution",
+        "logo": "/img/brands/lg_energy_solution.jpg"
+      },
+      {
+        "name": "SAJ",
+        "logo": "/img/brands/saj.png"
+      },
+      {
+        "name": "Solar Edge",
+        "logo": "/img/brands/solaredge.png"
+      },
+      {
+        "name": "Solis",
+        "logo": "/img/brands/solis.jpg"
+      },
+      {
+        "name": "Sungrow",
+        "logo": "/img/brands/sungrow.png"
+      }
+    ]
+  },
+  {
+    "category": "Mountings",
+    "brands": [
+      {
+        "name": "Antai",
+        "logo": "/img/brands/antai.jpg"
+      },
+      {
+        "name": "Titan Solar",
+        "logo": "/img/brands/titanergy.png"
+      }
+    ]
+  },
+  {
+    "category": "EV Chargers",
+    "brands": [
+      {
+        "name": "GoodWe",
+        "logo": "/img/brands/goodwe.png"
+      },
+      {
+        "name": "Ohme",
+        "logo": "/img/brands/ohme.jpg"
+      },
+      {
+        "name": "Solar Edge",
+        "logo": "/img/brands/solaredge.png"
+      },
+      {
+        "name": "Wallbox",
+        "logo": "/img/brands/wallbox.png"
+      },
+      {
+        "name": "Delta EV Charging Solution",
+        "logo": "/img/brands/delta_ev_charging_solution.png"
+      }
+    ]
+  },
+  {
+    "category": "Heat Pump",
+    "brands": [
+      {
+        "name": "Emerald Energy",
+        "logo": "/img/brands/emerald_energy.png"
+      }
+    ]
+  },
+  {
+    "category": "Electricals",
+    "brands": [
+      {
+        "name": "NHP",
+        "logo": "/img/brands/nhp.png"
+      },
+      {
+        "name": "Green Box",
+        "logo": "/img/brands/greenbox.png"
+      },
+      {
+        "name": "Tigo",
+        "logo": "/img/brands/tigo.png"
+      },
+      {
+        "name": "Beny",
+        "logo": "/img/brands/beny.png"
+      },
+      {
+        "name": "TMAC",
+        "logo": "/img/brands/tmac.png"
+      },
+      {
+        "name": "ASE Technology",
+        "logo": "/img/brands/ase_tech.png"
+      }
+    ]
+  }
+]
